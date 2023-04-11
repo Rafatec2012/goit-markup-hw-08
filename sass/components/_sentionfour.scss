@@ -1,0 +1,111 @@
+
+.sectionfour {
+    background-color: #f5f4fa;
+    height: 780px;
+    margin-block: 150px;
+    top: 80px;
+   
+&__equipo {
+    display: flex;
+    gap: 30px;
+    padding: 0;
+    list-style: none;
+    margin-top: 100px;
+  }
+  
+ &__img {
+    flex-basis: calc((100% - 100px) / 4);
+    background: #ffffff;
+    margin-top: 5px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    width: 270px;
+    height: 428px;
+  }
+  &images__equipo {
+    display: block;
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    &:hover {
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+          0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;
+      }
+  }
+  &__nombres {
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+ &__profeciones {
+    color: #757575;
+    left: 919px;
+    top: 2015px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    text-align: center;
+  }
+  
+&__redes {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+ 
+  
+  
+}
+ &__icon{
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  color: #AFB1B8;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover{
+    background-color: #2196f3;
+  color: #ffffff;
+  }
+ }
+ &__img {
+  flex-basis: calc((100% - 100px) / 4);
+  background: #ffffff;
+  margin-top: 5px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  width: 270px;
+  height: 428px;
+  }
+ &images__equipo {
+  display: block;
+  width: 100%;
+  height: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  &:hover {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+  }
+ } 
+ 
+  }
