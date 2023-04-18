@@ -77,7 +77,6 @@
               ></path>
             </svg>
           </button>
-
           <ul class="mobile__menu">
             <li><a href="./index.html" class="link">Studio</a></li>
             <li>
@@ -279,12 +278,21 @@
           <h2 class="sectionthree__conocenos-one">Nuestro Equipo</h2>
           <ul class="sectionfour__equipo">
             <li class="sectionfour__img">
-              <img
-                class="sectionfourimages__equipo"
-                src="./images/gafassonriente.jpg"
-                alt="gafassonriente"
-                width="300"
-              />
+              <picture>
+                <source media="(min-width: 1200px)" srcset="" />
+                <source media="(min-width: 768px)" srcset="" />
+                <source
+                  media="(max-width: 480px)"
+                  srcset="./images/gafas@1x.jpg, ./images/gafas@2x.jpg"
+                />
+
+                <img
+                  class="sectionfourimages__equipo"
+                  src="./images/gafassonriente.jpg"
+                  alt="gafassonriente"
+                  width="300 "
+                />
+              </picture>
               <div>
                 <div>
                   <h3 class="sectionfour__nombres">Andres cubo</h3>
@@ -395,6 +403,7 @@
                 alt="muchachogafas"
                 width="300"
               />
+
               <div>
                 <div>
                   <h3 class="sectionfour__nombres">Pablo Mijangos</h3>
