@@ -17,12 +17,14 @@ body {
   display: flex;
   align-items: center;
 }
+
 .container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
 }
+
 .header__container{
   display: flex;
   align-items: center;
@@ -962,6 +964,7 @@ background: rgba(0, 0, 0, 0.2);
     display: none;
     
   }
+  
   .link::after{
     display: none;
   }
@@ -1081,9 +1084,12 @@ border-radius: 4px
     height: 120px;
     background: #f5f4fa;
     border-radius: 4px;
-    margin-top: 40px;
-    
+    margin-top: 40px; 
   }
+  .sectiontwoflex__container{
+margin-left: -10px;
+  }
+  
   .section__reloj{
     width: 460px;
     height: 120px;
@@ -1097,7 +1103,7 @@ border-radius: 4px
     letter-spacing: 0.03em;
 display: flex;
 justify-content: center;
-margin-right: 700px; 
+
 
   
   }
@@ -1123,7 +1129,7 @@ font-size: 28px;
 line-height: 33px;
 text-align: center;
 letter-spacing: 0.03em;
-margin-left: 150px;
+margin-left: 50px;
 
 }
 .sectionfive__clientes{
@@ -1134,7 +1140,7 @@ font-size: 28px;
 line-height: 33px;
 text-align: center;
 letter-spacing: 0.03em;
-margin-left: 80px;
+
 
 }
 .sectionfive__company{
@@ -1144,6 +1150,7 @@ flex-wrap: wrap;
 width: 10px;
   height: 282px;
   gap: 30px;  
+  margin-left: -30px;
 }
 .sectionfive__iconservi{
   width: 214px;
@@ -1259,6 +1266,14 @@ margin-top: 20px;
   top: 1574px;
  
 }
+.container {
+  min-width: 460px;
+  max-width: 170px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
 }
 
  
@@ -1272,16 +1287,9 @@ margin-top: 20px;
 
  
 /* movil menu*/
-/*
-.container {
-  min-width: 320px;
-  max-width: 170px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
-/*/
+
+
+
 
  .menu {
   padding: 0;
